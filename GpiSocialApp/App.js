@@ -10,6 +10,8 @@ import AppNavigator from './navigation/AppNavigator';
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
 
+// Ceci est un commentaire
+
   if (!isLoadingComplete && !props.skipLoadingScreen) {
     return (
       <AppLoading
