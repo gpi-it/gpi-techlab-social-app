@@ -8,3 +8,7 @@
 * A widget that contains other widgets is called parent Widget (or Widget container). Widgets which are contained in a parent Widget are called children Widgets.
 
 * You should have a MaterialApp near the root of your app. And then use widgets that introduce a Material instance (Such a Scaffold, Appbar, Dialog, ...) when you want to use Text or InkWell.  
+
+* static is to declar class level members (methods, fields, getters/setters). They are in the class' namespace. They can only be accessed from within the class (not subclasses) or with the class name as prefix.
+
+* setState() notify to the Framework that 'data has changed' and the widget at this build context should be rebuilt
